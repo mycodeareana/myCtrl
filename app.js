@@ -4,7 +4,8 @@ angular.module('myApp', [])
   $sceDelegateProvider.resourceUrlWhitelist([
     'self',
     'https://script.google.com/**',
-    'https://angularjs.org/**'
+    'https://angularjs.org/**',
+	  'https://cdn.jsdelivr.net/gh/mycodeareana/myCtrl/**'
   ]);
 }])
 .controller('myBlogPost', function ($scope, $http) {
